@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.com.AutomatizacionFacebookPage.runners.AutenticacionFacebookRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ANGIE" time="0.0">
+<testsuite name="co.com.AutomatizacionFacebookPage.runners.AutenticacionFacebookRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-2HCLD2V" time="0.0">
   <properties/>
   <system-out><![CDATA[
-1 Scenarios (?[33m1 undefined?[0m)
-3 Steps (?[33m3 undefined?[0m)
-0m0,224s
-
-
-You can implement missing steps with the snippets below:
-
-@Dado("^que el usuario se encuentra en la pagina de inicio de sesion de Facebook$")
-public void queElUsuarioSeEncuentraEnLaPaginaDeInicioDeSesionDeFacebook() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-
-@Cuando("^ingrese las credenciales correctas \\(usuario y contrasena\\)$")
-public void ingreseLasCredencialesCorrectasUsuarioYContrasena(DataTable arg1) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-    // E,K,V must be a scalar (String, Integer, Date, enum etc).
-    // Field names for YourType must match the column names in 
-    // your feature file (except for spaces and capitalization).
-    throw new PendingException();
-}
-
-@Entonces("^se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina de inicio de Facebook$")
-public void seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamenteYRedirigidoASuPaginaDeInicioDeFacebook() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m12,340s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
@@ -60,8 +33,8 @@ public void seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamenteYRedirigi
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
                                                                   
 
-TEST STARTED: Verificar la autenticacion exitosa en la pagina de Facebook
--------------------------------------------------------------------(autenticacion-en-la-pagina-de-facebook;verificar-la-autenticacion-exitosa-en-la-pagina-de-facebook)
+TEST STARTED: Verificar la autenticacion correcta en la pagina de Facebook
+-------------------------------------------------------------------(autenticacion-en-la-pagina-de-facebook;verificar-la-autenticacion-correcta-en-la-pagina-de-facebook)
 [pool-2-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: net.thucydides.showcase.cucumber.junit
 log4j:WARN No appenders could be found for logger (freemarker.cache).
 log4j:WARN Please initialize the log4j system properly.
