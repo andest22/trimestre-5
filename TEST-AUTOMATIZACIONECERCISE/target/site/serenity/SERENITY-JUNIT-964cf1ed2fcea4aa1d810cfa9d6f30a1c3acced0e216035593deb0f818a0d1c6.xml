@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Selección de servicios de cortes en la aplicación Mystical Cut" skipped="0" tests="1" time="9.38" timestamp="2025-05-22 11:24:58"><testcase name="Visualización y selección de un servicio de corte"><error message="The following error occurred: unknown error: net::ERR_CONNECTION_REFUSED&#10;  (Session info: chrome=136.0.7103.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ANGIE', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\angie\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 43b5ab5cb94bd0a2b4d295916648fece" type="org.openqa.selenium.WebDriverException">The following error occurred: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANGIE', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\angie\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43b5ab5cb94bd0a2b4d295916648fece</error><system-err>The following error occurred: unknown error:
+    net::ERR_CONNECTION_REFUSED
+    (Session info: chrome=136.0.7103.114)
+    Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+    System info: host: 'ANGIE', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0',
+    java.version: '15.0.1'
+    Driver info: org.openqa.selenium.chrome.ChromeDriver
+    Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome:
+    {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\angie\AppData\Loca...}, fedcm:accounts:
+    true, goog:chromeOptions: {debuggerAddress: localhost:49757}, javascriptEnabled: true, networkConnectionEnabled:
+    false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true,
+    strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior:
+    ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength:
+    true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+    Session ID: 43b5ab5cb94bd0a2b4d295916648fece&#13;
+    co.com.LOGIN.tasks.AbrirPagina.performAs(AbrirPagina.java:17)&#13;
+    co.com.LOGIN.stepsdefinitions.LoginStepDefinitions.queElUsuarioHaIniciadoSesiónCorrectamenteEnLaPlataforma(VisualizacionServiciosStepDefinitions.java:14)&#13;
+    cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+    worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+    worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

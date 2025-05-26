@@ -11,5 +11,5 @@ Característica: Autenticacion en la pagina de Facebook
     Dado que el usuario se encuentra en la pagina de inicio de sesion
     Cuando ingrese las credenciales correctas (usuario y contrasena) en facebook
       | usuarios | clave |
-      | john     | 1234  |
+      | student     | Password123  |
     Entonces se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina de inicio

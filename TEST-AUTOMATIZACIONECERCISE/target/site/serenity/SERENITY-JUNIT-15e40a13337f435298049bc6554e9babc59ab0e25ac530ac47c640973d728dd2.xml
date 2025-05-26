@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Registro completo de nuevos usuarios en la plataforma" skipped="0" tests="1" time="19.84" timestamp="2025-05-25 08:39:09"><testcase name="Registro de usuario completando todos los pasos del formulario"><failure message="Expected validacion register&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected validacion register&#13;
+Expected: is &lt;true&gt;&#13;
+     but: was &lt;false&gt;</failure><system-err>Expected validacion register&#13;
+Expected: is &lt;true&gt;&#13;
+     but: was &lt;false&gt;&#13;
+co.com.LOGIN.stepsdefinitions.LoginStepDefinitions.laCuentaDebeSerCreadaYElUsuarioRedirigidoALaVistaDeConfirmación(LoginStepDefinitions.java:50)&#13;
+✽.la cuenta debe ser creada y el usuario redirigido a la vista de confirmación(src/test/resources/features/LOGIN.feature:21)&#13;
+</system-err></testcase></testsuite>

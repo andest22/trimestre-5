@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7351bc73-40ca-40e9-b908-9bdc85b41011" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/main/java/co/com/AutomatizacionFacebookPage/models/CredencialesInicioSesion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/main/java/co/com/AutomatizacionFacebookPage/tasks/Autenticarse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/main/java/co/com/AutomatizacionFacebookPage/userinterface/autenticacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/191959bd715bf13a533f55b6049928c007f7c9b452fb018128b327bf9c683ebb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/pagesource2136430421407258007.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/main/java/co/com/AutomatizacionTest/tasks/AbrirPagina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/main/java/co/com/AutomatizacionTest/userinterface/InicioProductos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/main/java/co/com/AutomatizacionTest/utils/hooks/PreparacionEscenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/test/java/co/com/AutomatizacionTest/runners/ProductosRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/test/java/co/com/AutomatizacionTest/stepsdefinitions/ProductosStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/test/resources/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/test/resources/features/scratch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/classes/java/main/co/com/AutomatizacionFacebookPage/userinterface/InicioFacebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/classes/java/main/co/com/AutomatizacionFacebookPage/userinterface/InicioFacebook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/classes/java/test/co/com/AutomatizacionFacebookPage/stepsdefinitions/AutenticacionFacebookStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/classes/java/test/co/com/AutomatizacionFacebookPage/stepsdefinitions/AutenticacionFacebookStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/classes/Autenticacion#20en#20la#20pagina#20de#20Facebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/classes/Autenticacion#20en#20la#20pagina#20de#20Facebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/classes/co.com.AutomatizacionFacebookPage.runners.AutenticacionFacebookRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/classes/co.com.AutomatizacionFacebookPage.runners.AutenticacionFacebookRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/packages/co.com.AutomatizacionFacebookPage.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/packages/co.com.AutomatizacionFacebookPage.runners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/resources/test/features/autenticacion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/resources/test/features/autenticacion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/TEST-Autenticacion#20en#20la#20pagina#20de#20Facebook.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/TEST-Autenticacion#20en#20la#20pagina#20de#20Facebook.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/TEST-co.com.AutomatizacionFacebookPage.runners.AutenticacionFacebookRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/TEST-co.com.AutomatizacionFacebookPage.runners.AutenticacionFacebookRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/main/java/co/com/AutomatizacionFacebookPage/userinterface/InicioFacebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/main/java/co/com/AutomatizacionFacebookPage/userinterface/InicioFacebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/test/java/co/com/AutomatizacionFacebookPage/stepsdefinitions/AutenticacionFacebookStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/test/java/co/com/AutomatizacionFacebookPage/stepsdefinitions/AutenticacionFacebookStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/test/resources/features/autenticacion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/src/test/resources/features/autenticacion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/SERENITY-JUNIT-af56dbc84ff3a9f36bb6d96dc4a98ccdcdc66d91534478b4c732f0922bbabf72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/SERENITY-JUNIT-af56dbc84ff3a9f36bb6d96dc4a98ccdcdc66d91534478b4c732f0922bbabf72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/af56dbc84ff3a9f36bb6d96dc4a98ccdcdc66d91534478b4c732f0922bbabf72.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/af56dbc84ff3a9f36bb6d96dc4a98ccdcdc66d91534478b4c732f0922bbabf72.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/af56dbc84ff3a9f36bb6d96dc4a98ccdcdc66d91534478b4c732f0922bbabf72.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/af56dbc84ff3a9f36bb6d96dc4a98ccdcdc66d91534478b4c732f0922bbabf72.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/af56dbc84ff3a9f36bb6d96dc4a98ccdcdc66d91534478b4c732f0922bbabf72_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/af56dbc84ff3a9f36bb6d96dc4a98ccdcdc66d91534478b4c732f0922bbabf72_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Botfacebook/TRIMESTRE5/AutomatiFacebook/target/site/serenity/browser-chrome.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2xQKiVej3HUsM43LLq7553yvhhX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/angie/OneDrive/Escritorio/trimestre-5/TEST-AUTOMATIZACION"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Gherkin"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\TRIMESTRE5\MysticalCutServices\src\test\resources\driver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\TRIMESTRE5\MysticalCutServices\src\test\resources\feacture" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="VisualizacionServiciosRunner (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.com.VisualizarServicios.runners.VisualizacionServiciosRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.VisualizacionServiciosRunner (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7351bc73-40ca-40e9-b908-9bdc85b41011" name="Changes" comment="" />
+      <created>1747864987059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747864987059</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
