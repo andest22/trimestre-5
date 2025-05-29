@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class Register extends PageObject {
 
-    public static Target RADIO_TITULO = Target.the("Opción de título ").located(By.xpath("//*[@id=\"form\"]/div/div/div/div[1]/form/div[1]/div[1]/label"));
+        public static Target RADIO_TITULO = Target.the("Opción de título ").located(By.xpath("//*[@id=\"form\"]/div/div/div/div[1]/form/div[1]/div[1]/label"));
 
     public static Target INPUT_CONTRASEÑA = Target.the(" Campo de Contraseña").located(By.xpath("//*[@id=\"password\"]"));
 

@@ -1,5 +1,5 @@
 # language: es
-# author: TuNombre
+# author: Andres Castañeda
 
 Característica: Registro completo de nuevos usuarios en la plataforma
   Como visitante del sitio

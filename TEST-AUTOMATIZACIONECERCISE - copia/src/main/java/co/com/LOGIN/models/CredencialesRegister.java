@@ -1,7 +1,7 @@
 package co.com.LOGIN.models;
 
 
-public class CredencialesRegister {
+public class    CredencialesRegister {
 
     private String contraseña;
 
