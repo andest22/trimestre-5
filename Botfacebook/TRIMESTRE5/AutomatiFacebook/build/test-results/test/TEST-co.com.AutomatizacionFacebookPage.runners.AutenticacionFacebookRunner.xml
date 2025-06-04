@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="co.com.AutomatizacionFacebookPage.runners.AutenticacionFacebookRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ANGIE" time="0.0">
   <properties/>
-  <system-out><![CDATA[
-?[31mFailed scenarios:?[0m
-?[31msrc/test/resources/features/autenticacion.feature:10 ?[0m# Verificar la autenticacion correcta en la pagina de Facebook
+  <system-out><![CDATA[Característica: Autenticacion en la pagina de Facebook
+  Como usuario de Facebook
+  Quiero autenticarme en el portal de Facebook
+  Para poder acceder al contenido y funcionalidades disponibles en mi cuenta
 
-1 Scenarios (?[31m1 failed?[0m)
-3 Steps (?[31m1 failed?[0m, ?[32m2 passed?[0m)
-0m8,461s
+  @autenticacion
+  Escenario: Verificar la autenticacion correcta en la pagina de Facebook                                            ?[90m# src/test/resources/features/autenticacion.feature:10?[0m
 
-java.lang.AssertionError: Expected validacion login
-Expected: is <true>
-     but: was <false>
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
-	at co.com.AutomatizacionFacebookPage.stepsdefinitions.AutenticacionFacebookStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamenteYRedirigidoASuPaginaDeInicio(AutenticacionFacebookStepDefinitions.java:34)
-	at ?.se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina de inicio(src/test/resources/features/autenticacion.feature:15)
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m11,297s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 

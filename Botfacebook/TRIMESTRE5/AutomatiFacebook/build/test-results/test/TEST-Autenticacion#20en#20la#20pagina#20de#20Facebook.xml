@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Autenticacion en la pagina de Facebook" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-05-23T00:27:11" hostname="ANGIE" time="8.263">
+<testsuite name="Autenticacion en la pagina de Facebook" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-31T00:10:47" hostname="ANGIE" time="10.928">
   <properties/>
-  <testcase name="Verificar la autenticacion correcta en la pagina de Facebook" classname="Autenticacion en la pagina de Facebook" time="8.263">
-    <failure message="java.lang.AssertionError: Expected validacion login&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected validacion login
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
-	at co.com.AutomatizacionFacebookPage.stepsdefinitions.AutenticacionFacebookStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamenteYRedirigidoASuPaginaDeInicio(AutenticacionFacebookStepDefinitions.java:34)
-	at ✽.se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina de inicio(src/test/resources/features/autenticacion.feature:15)
-</failure>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[may. 22, 2025 7:27:12 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+  <testcase name="Verificar la autenticacion correcta en la pagina de Facebook" classname="Autenticacion en la pagina de Facebook" time="10.928"/>
+  <system-out><![CDATA[    ?[32mDado ?[0m?[32mque el usuario se encuentra en la pagina de inicio de sesion?[0m                                                ?[90m# AutenticacionFacebookStepDefinitions.queElUsuarioSeEncuentraEnLaPaginaDeInicioDeSesion()?[0m
+    ?[32mCuando ?[0m?[32mingrese las credenciales correctas (usuario y contrasena) en facebook?[0m                                     ?[90m# AutenticacionFacebookStepDefinitions.ingreseLasCredencialesCorrectasUsuarioYContrasena(CredencialesInicioSesion>)?[0m
+    ?[32mEntonces ?[0m?[32mse debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina de inicio?[0m ?[90m# AutenticacionFacebookStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamenteYRedirigidoASuPaginaDeInicio()?[0m
+]]></system-out>
+  <system-err><![CDATA[may. 30, 2025 7:10:48 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: [], prefs: {behavior: allow}}, loggingPrefs: org.openqa.selenium.logging..., name: proyecto, platform: ANY, unhandledPromptBehavior: ignore, version: }
-Starting ChromeDriver 136.0.7103.94 (fa0be0b33debeb378a8e6ad9c599be34e2dc3b37-refs/branch-heads/7103@{#1842}) on port 6241
+Starting ChromeDriver 136.0.7103.94 (fa0be0b33debeb378a8e6ad9c599be34e2dc3b37-refs/branch-heads/7103@{#1842}) on port 46219
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 6241.
-may. 22, 2025 7:27:13 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 46219.
+may. 30, 2025 7:10:51 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST FAILED: Verificar la autenticacion correcta en la pagina de Facebook
---------------------------------------------------------------------------
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then validacion login
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected validacion loginExpected: is <true> but: was <false>
+TEST PASSED: Verificar la autenticacion correcta en la pagina de Facebook
+----------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>
