@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4192508000,
+              "duration": 4230141100,
               "status": "passed"
             },
             "line": 8,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1508733400,
+              "duration": 1518342800,
               "status": "passed"
             },
             "line": 9,
@@ -53,7 +53,7 @@
         "before": [
           {
             "result": {
-              "duration": 45162700,
+              "duration": 46593100,
               "status": "passed"
             },
             "match": {
@@ -70,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1647402200,
+              "duration": 1959086400,
               "status": "passed"
             },
             "line": 15,
@@ -82,9 +82,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Expected validaciones quotes cancel\r\nExpected: is \u003ctrue\u003e\r\n     but: was \u003cfalse\u003e\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:316)\r\n\tat co.com.Mysticalcut.stepsdefinitions.QuotesCancelStepsdefinitions.verificarQueSeCanceleLaCita(QuotesCancelStepsdefinitions.java:24)\r\n\tat ✽.Verificar que se cancele la cita(src/test/resources/features/QuotesCancel.feature:17)\r\n",
-              "duration": 95551100,
-              "status": "failed"
+              "duration": 188958400,
+              "status": "passed"
             },
             "line": 17,
             "name": "Verificar que se cancele la cita",
