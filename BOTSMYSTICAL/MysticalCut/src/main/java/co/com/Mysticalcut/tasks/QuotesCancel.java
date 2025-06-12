@@ -20,18 +20,8 @@ public class QuotesCancel implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(BTN_QUOTES),
-                Click.on(BTN_CANCEL)
-
-        );
-
-        // Manejo de la alerta después de los clics
-        WebDriver driver = Serenity.getWebdriverManager().getCurrentDriver();
-        Alert alert = driver.switchTo().alert();
-        alert.accept();
-
-        // Volver al módulo de quotes después de cancelar
-        actor.attemptsTo(
-                Click.on(BTN_QUOTES)
+                Click.on(BTN_CANCEL),
+                Alerts.Alert()
         );
     }
 }

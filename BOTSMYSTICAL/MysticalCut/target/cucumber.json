@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4230141100,
+              "duration": 6030707300,
               "status": "passed"
             },
             "line": 8,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1518342800,
+              "duration": 2264036300,
               "status": "passed"
             },
             "line": 9,
@@ -53,7 +53,7 @@
         "before": [
           {
             "result": {
-              "duration": 46593100,
+              "duration": 95069700,
               "status": "passed"
             },
             "match": {
@@ -62,33 +62,33 @@
           }
         ],
         "line": 14,
-        "name": "Ver la cita qye se quiere cancelar",
+        "name": "Agendar una cita",
         "description": "",
-        "id": "ver-una-cita;ver-la-cita-qye-se-quiere-cancelar",
+        "id": "agendar-una-cita--elegir-el-servicio--barbero--dia-hora;agendar-una-cita",
         "type": "scenario",
         "keyword": "Escenario",
         "steps": [
           {
             "result": {
-              "duration": 1959086400,
+              "duration": 4677064500,
               "status": "passed"
             },
-            "line": 15,
-            "name": "Cancelar la cita que se quiere cancelar",
+            "line": 16,
+            "name": "completa los campos requeridos de servicio, barbero, dia",
             "match": {
-              "location": "QuotesCancelStepsdefinitions.cancelarLaCitaQueSeQuiereCancelar()"
+              "location": "QuotesStepsdefinitions.completaLosCamposRequeridosDeServicioBarberoDia()"
             },
             "keyword": "Cuando "
           },
           {
             "result": {
-              "duration": 188958400,
+              "duration": 363290200,
               "status": "passed"
             },
-            "line": 17,
-            "name": "Verificar que se cancele la cita",
+            "line": 18,
+            "name": "Verificar la orden del servicio",
             "match": {
-              "location": "QuotesCancelStepsdefinitions.verificarQueSeCanceleLaCita()"
+              "location": "QuotesStepsdefinitions.verificarLaOrdenDelServicio()"
             },
             "keyword": "Entonces "
           }
@@ -100,11 +100,11 @@
         ]
       }
     ],
-    "name": "Ver una cita",
+    "name": "Agendar una cita, elegir el servicio, barbero, dia hora",
     "description": "",
-    "id": "ver-una-cita",
+    "id": "agendar-una-cita--elegir-el-servicio--barbero--dia-hora",
     "keyword": "Característica",
-    "uri": "src/test/resources/features/QuotesCancel.feature",
+    "uri": "src/test/resources/features/Quotes.feature",
     "tags": []
   }
 ]

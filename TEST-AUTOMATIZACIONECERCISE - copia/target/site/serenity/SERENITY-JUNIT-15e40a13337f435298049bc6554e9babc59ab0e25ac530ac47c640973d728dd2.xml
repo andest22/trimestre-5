@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Registro completo de nuevos usuarios en la plataforma" skipped="0" tests="1" time="20.6" timestamp="2025-05-26 09:09:54"><testcase name="Registro de usuario completando todos los pasos del formulario"><failure message="Expected validacion register&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected validacion register&#13;
-Expected: is &lt;true&gt;&#13;
-     but: was &lt;false&gt;</failure><system-err>Expected validacion register&#13;
-Expected: is &lt;true&gt;&#13;
-     but: was &lt;false&gt;&#13;
-co.com.LOGIN.stepsdefinitions.Register.laCuentaDebeSerCreadaYElUsuarioRedirigidoALaVistaDeConfirmación(Register.java:21)&#13;
-✽.la cuenta debe ser creada y el usuario redirigido a la vista de confirmación(src/test/resources/features/Register.feature:22)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Registro completo de nuevos usuarios en la plataforma" skipped="0" tests="1" time="11.54" timestamp="2025-06-06 07:42:47"><testcase name="Registro de usuario completando todos los pasos del formulario"><error message="class co.com.LOGIN.models.CredencialesPreLogin cannot be cast to class java.lang.String (co.com.LOGIN.models.CredencialesPreLogin is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')" type="java.lang.AssertionError">class co.com.LOGIN.models.CredencialesPreLogin cannot be cast to class java.lang.String (co.com.LOGIN.models.CredencialesPreLogin is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')</error><system-err>class co.com.LOGIN.models.CredencialesPreLogin cannot be cast to class java.lang.String (co.com.LOGIN.models.CredencialesPreLogin is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')&#13;
+co.com.LOGIN.stepsdefinitions.LoginStepDefinitions.debeSerRedirigidoALaVistaEnterAccountInformation(LoginStepDefinitions.java:34)&#13;
+✽.debe ser redirigido a la vista Enter Account Information(src/test/resources/features/LOGIN.feature:14)&#13;
 </system-err></testcase></testsuite>

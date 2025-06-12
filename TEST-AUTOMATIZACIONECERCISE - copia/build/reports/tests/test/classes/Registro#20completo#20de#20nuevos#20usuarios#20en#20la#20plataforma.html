@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">20.581s</div>
+<div class="counter">12.350s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,14 +76,12 @@
 <a name="Registro de usuario completando todos los pasos del formulario"></a>
 <h3 class="failures">Registro de usuario completando todos los pasos del formulario</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Expected validacion register
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;
+<pre>java.lang.AssertionError: class co.com.LOGIN.models.CredencialesPreLogin cannot be cast to class java.lang.String (co.com.LOGIN.models.CredencialesPreLogin is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
-	at co.com.LOGIN.stepsdefinitions.Register.laCuentaDebeSerCreadaYElUsuarioRedirigidoALaVistaDeConfirmación(Register.java:21)
-	at ✽.la cuenta debe ser creada y el usuario redirigido a la vista de confirmación(src/test/resources/features/Register.feature:22)
+	at co.com.LOGIN.stepsdefinitions.LoginStepDefinitions.debeSerRedirigidoALaVistaEnterAccountInformation(LoginStepDefinitions.java:34)
+	at ✽.debe ser redirigido a la vista Enter Account Information(src/test/resources/features/LOGIN.feature:14)
 </pre>
 </span>
 </div>
@@ -100,7 +98,7 @@ Expected: is &lt;true&gt;
 </thead>
 <tr>
 <td class="failures">Registro de usuario completando todos los pasos del formulario</td>
-<td class="failures">20.581s</td>
+<td class="failures">12.350s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -108,15 +106,16 @@ Expected: is &lt;true&gt;
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>may. 26, 2025 9:09:54 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+<pre>jun. 06, 2025 7:42:47 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: [], prefs: {behavior: allow}}, loggingPrefs: org.openqa.selenium.logging..., name: proyecto, platform: ANY, unhandledPromptBehavior: ignore, version: }
-Starting ChromeDriver 136.0.7103.94 (fa0be0b33debeb378a8e6ad9c599be34e2dc3b37-refs/branch-heads/7103@{#1842}) on port 33478
+Starting ChromeDriver 136.0.7103.94 (fa0be0b33debeb378a8e6ad9c599be34e2dc3b37-refs/branch-heads/7103@{#1842}) on port 44221
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 33478.
-may. 26, 2025 9:09:56 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 44221.
+[1749256969.643][WARNING]: This version of ChromeDriver has not been tested with Chrome version 137.
+jun. 06, 2025 7:42:49 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
@@ -126,10 +125,10 @@ INFO: Detected dialect: W3C
  (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
           \_\                                                            
 
-TEST FAILED: Registro de usuario completando todos los pasos del formulario
---------------------------------------------------------------------------
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then validacion register
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected validacion registerExpected: is &lt;true&gt; but: was &lt;false&gt;
+TEST FAILED WITH ERROR: Registro de usuario completando todos los pasos del formulario
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then validacion pre login
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - class co.com.LOGIN.models.CredencialesPreLogin cannot be cast to class java.lang.String (co.com.LOGIN.models.CredencialesPreLogin is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
 </pre>
 </span>
 </div>
@@ -141,7 +140,7 @@ TEST FAILED: Registro de usuario completando todos los pasos del formulario
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 26/05/2025, 9:10:16 p. m.</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 6/06/2025, 7:43:01 p. m.</p>
 </div>
 </div>
 </body>
