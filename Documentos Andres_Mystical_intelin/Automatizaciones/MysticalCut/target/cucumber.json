@@ -1,0 +1,89 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41834800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.sepUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Completar el formulario de iniciar sesion",
+        "description": "",
+        "id": "iniciar-sesion-en-la-pagina-de-mysticalcut;completar-el-formulario-de-iniciar-sesion",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4104875499,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que el visitante está en la página de Mystical e ingresa a iniciarsesion",
+            "match": {
+              "location": "LoginStepsdefinitions.queElVisitanteEstáEnLaPáginaDeMysticalEIngresaAIniciarsesion()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1498837601,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "ingresa las credenciales básicas:",
+            "match": {
+              "location": "LoginStepsdefinitions.ingresaLasCredencialesBásicas(CredencialesLogin\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "correo",
+                  "contraseña"
+                ]
+              },
+              {
+                "cells": [
+                  "Bot-services@gmail.com",
+                  "12345678"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1570100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "debe ser redirigido a la vista home",
+            "match": {
+              "location": "LoginStepsdefinitions.debeSerRedirigidoALaVistaHome()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registro"
+          }
+        ]
+      }
+    ],
+    "name": "Iniciar sesion en la pagina de mysticalcut",
+    "description": "",
+    "id": "iniciar-sesion-en-la-pagina-de-mysticalcut",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]

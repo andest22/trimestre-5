@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Entrar al apartado de usuarios y ver un usuario en especifico","Visualizar un usuario que se encuentre registrado en la pagina MysticalCut","SUCCESS","2025-06-18T15:11:01.044888-05:00[America/Bogota]","0.0","7.87"
+"Entrar al apartado de usuarios y visualizar todos los usuarios registrados","Eliminar un producto que se encuentren agregados en la pagina MysticalCut","SUCCESS","2025-06-18T15:54:22.3198813-05:00[America/Bogota]","0.0","8.19"
+"Iniciar sesion en la pagina de mysticalcut","Completar el formulario de iniciar sesion","SUCCESS","2025-06-18T16:17:39.6084925-05:00[America/Bogota]","0.0","5.74"
+"Recuperación de contraseña","Recuperar contraseña mediante correo electrónico","SUCCESS","2025-06-18T15:25:06.0845069-05:00[America/Bogota]","0.0","7.96"
+"Entrar al apartado de usuarios y visualizar todos los usuarios registrados","Visualizar todos los productos que se encuentren agregados en la pagina MysticalCut","SUCCESS","2025-06-18T16:03:44.0449913-05:00[America/Bogota]","0.0","7.59"
+"Ver una cita","Ver un servicio","SUCCESS","2025-06-17T21:59:27.7469922-05:00[America/Bogota]","0.0","7.85"
+"Autenticacion en la pagina de MysticalCut","Verificar la autenticacion exitosa en la pagina de Mystical","SUCCESS","2025-06-17T22:07:01.0297053-05:00[America/Bogota]","0.0","7.28"
